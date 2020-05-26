@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://dl.bintray.com/ololoshechkin/kotlinx-stm-runtime' }
+        maven { url 'https://kotlin.bintray.com/kotlin-eap' }
+        maven { url "https://bintray.com/jetbrains/kotlin-native-dependencies" }
+        maven { url "https://dl.bintray.com/jetbrains/kotlin-native-dependencies" }
+        mavenCentral()
+        maven { url "https://kotlin.bintray.com/kotlin-dev" }
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'https://dl.bintray.com/kotlin/kotlinx' }
+        maven { url 'https://kotlin.bintray.com/kotlinx' }
+        maven { url 'https://mvnrepository.com/artifact/org.jetbrains.kotlinx' }
+        gradlePluginPortal()
+        mavenLocal()
+    }
+}
+rootProject.name = 'untitled4'
+
+enableFeaturePreview('GRADLE_METADATA')
