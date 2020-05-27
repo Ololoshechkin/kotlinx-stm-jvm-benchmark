@@ -11,7 +11,7 @@ allOpen {
 
 // Create a custom sourceSet
 sourceSets {
-    benchmarks
+    main
 }
 
 sourceSets.all {
@@ -40,10 +40,10 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation 'org.jetbrains.kotlinx:kotlinx-stm-runtime-jvm:0.0.1-tmp-local'
+    implementation 'org.jetbrains.kotlinx:kotlinx-stm-runtime-jvm:0.0.1-tmp-local-3'
+    implementation 'org.jetbrains.kotlinx:scala-stm-impl-jvm:0.0.1-tmp-local-3'
     implementation 'org.scala-stm:scala-stm_2.11:0.7'
-    implementation 'org.jetbrains.kotlinx:kotlinx.benchmark.runtime-jvm' version '0.2.0-dev-8'
-    benchmarksCompile sourceSets.main.output + sourceSets.main.runtimeClasspath
+    implementation 'org.jetbrains.kotlinx:kotlinx.benchmark.runtime-jvm:0.2.0-dev-8'
 }
 
 compileKotlin {
@@ -63,7 +63,7 @@ benchmark {
     // Setup configurations
     targets {
         // This one matches sourceSet name above
-        register("benchmarks") {
+        register("main") {
             jmhVersion = "1.21"
         }
     }
