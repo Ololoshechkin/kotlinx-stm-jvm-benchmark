@@ -6,53 +6,14 @@ import scala.reflect.*
 import java.util.concurrent.Callable
 
 import org.openjdk.jmh.annotations.*
+import stm.benchmarks.plugin.BankAccount
+import stm.benchmarks.plugin.transferTo
+import stm.benchmarks.testData.FORTUNES
+import stm.benchmarks.testData.NUMBER_OF_THREADS
+import stm.benchmarks.testData.TRANSFERS
+import stm.benchmarks.testData.TRANSFER_COUNT
 import java.util.concurrent.*
 import kotlin.math.*
-
-inline fun <reified T> refOf(t: T) = `Ref$`.`MODULE$`.apply(t, `ManifestFactory$`.`MODULE$`.Object()) as Ref<T>
-
-class User(fname: String, lname: String) {
-    var firstName: Ref<String> = refOf(fname)
-    var lastName: Ref<String> = refOf(lname)
-}
-
-fun getContext() = run {
-    val ctx = Txn.findCurrent(`TxnUnknown$`.`MODULE$`)
-    when {
-        ctx.isDefined -> ctx.get()
-        else -> null
-    }
-}
-
-fun a(u: User) =
-    "Vadim"
-        .splitToSequence("")
-        .map {
-            u.lastName.set(it, getContext())
-            "${u.firstName.get(getContext())} ${u.lastName.get(getContext())}"
-        }
-        .joinToString(", ")
-
-fun g(): String {
-    val u = User("Vadim", "Briliantov")
-
-    var res = ""
-    res += scala.concurrent.stm.japi.STM.atomic(Callable {
-        val tmp = u.firstName.get(getContext())
-        u.firstName.set(u.lastName.get(getContext()), getContext())
-        u.lastName.set(tmp, getContext())
-
-        return@Callable a(u)
-    })
-
-    scala.concurrent.stm.japi.STM.atomic(Callable {
-        return@Callable  u.firstName.set("Ololoshechkin", getContext())
-    })
-    res += scala.concurrent.stm.japi.STM.atomic(Callable {
-        return@Callable u.firstName.get(getContext())
-    })
-    return res
-}
 
 fun main() {
     println(g())
@@ -111,5 +72,28 @@ open class StmPluginBenchmark {
 
     @Benchmark
     fun gBenchmark() = g()
+
+    @Benchmark
+    fun multiThreadedAccountBenchmark() {
+        var currentTimestamp = 0
+
+        val accounts = FORTUNES.map { BankAccount(initial = it, timestamp = currentTimestamp) }
+
+        val ex = Executors.newFixedThreadPool(NUMBER_OF_THREADS)
+        val countDownLatch = CountDownLatch(TRANSFER_COUNT)
+
+        TRANSFERS.forEach { (from, to, ammount) ->
+            currentTimestamp += 1
+
+            ex.submit {
+                accounts[from].transferTo(accounts[to], ammount, currentTimestamp)
+                countDownLatch.countDown()
+            }
+        }
+
+        countDownLatch.await()
+        ex.awaitTermination(1, TimeUnit.SECONDS);
+        ex.shutdown();
+    }
 }
 

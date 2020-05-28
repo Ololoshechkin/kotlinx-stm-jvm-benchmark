@@ -1,48 +1,16 @@
 package stm.benchmarks.plugin
 
 import kotlinx.benchmark.Blackhole
-import kotlinx.stm.AtomicFunction
-import kotlinx.stm.SharedMutable
-import kotlinx.stm.findJavaSTM
-
 import kotlinx.stm.runAtomically
 import org.openjdk.jmh.annotations.*
-import java.util.*
-import java.util.concurrent.*
-import kotlin.math.*
+import stm.benchmarks.testData.FORTUNES
+import stm.benchmarks.testData.NUMBER_OF_THREADS
+import stm.benchmarks.testData.TRANSFERS
+import stm.benchmarks.testData.TRANSFER_COUNT
+import java.util.concurrent.CountDownLatch
+import java.util.concurrent.Executors
+import java.util.concurrent.TimeUnit
 
-@SharedMutable
-class User(fname: String, lname: String) {
-    var firstName: String = fname
-    var lastName: String = lname
-}
-
-@AtomicFunction
-fun a(u: User) =
-    "Vadim"
-        .splitToSequence("")
-        .map {
-            u.lastName = it
-            "${u.firstName} ${u.lastName}"
-        }
-        .joinToString(", ")
-
-fun g(): String {
-    val u = User("Vadim", "Briliantov")
-
-    var res = ""
-    res += runAtomically {
-        val tmp = u.firstName
-        u.firstName = u.lastName
-        u.lastName = tmp
-
-        a(u)
-    }
-
-    u.firstName = "Ololoshechkin"
-    res += u.firstName
-    return res
-}
 
 fun main() {
     println(g())
@@ -101,4 +69,27 @@ open class StmPluginBenchmark {
 
     @Benchmark
     fun gBenchmark() = g()
+
+    @Benchmark
+    fun multiThreadedAccountBenchmark() {
+        var currentTimestamp = 0
+
+        val accounts = FORTUNES.map { BankAccount(initial = it, timestamp = currentTimestamp) }
+
+        val ex = Executors.newFixedThreadPool(NUMBER_OF_THREADS)
+        val countDownLatch = CountDownLatch(TRANSFER_COUNT)
+
+        TRANSFERS.forEach { (from, to, ammount) ->
+            currentTimestamp += 1
+
+            ex.submit {
+                accounts[from].transferTo(accounts[to], ammount, currentTimestamp)
+                countDownLatch.countDown()
+            }
+        }
+
+        countDownLatch.await()
+        ex.awaitTermination(1, TimeUnit.SECONDS);
+        ex.shutdown();
+    }
 }
