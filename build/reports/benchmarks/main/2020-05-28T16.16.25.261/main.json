@@ -1,0 +1,118 @@
+[
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "stm.benchmarks.plugin.StmPluginBenchmark.multiThreadedAccountBenchmark",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=RU",
+            "-Duser.language=en",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_144",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.144-b01",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 7,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.9954306021408014,
+            "scoreError" : 0.0028252824562927615,
+            "scoreConfidence" : [
+                0.9926053196845086,
+                0.9982558845970941
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.993770462404616,
+                "50.0" : 0.9952422974425389,
+                "90.0" : 0.9971061795008352,
+                "95.0" : 0.9971061795008352,
+                "99.0" : 0.9971061795008352,
+                "99.9" : 0.9971061795008352,
+                "99.99" : 0.9971061795008352,
+                "99.999" : 0.9971061795008352,
+                "99.9999" : 0.9971061795008352,
+                "100.0" : 0.9971061795008352
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.9945995274641731,
+                    0.9946521087129491,
+                    0.9970137031801661,
+                    0.9956299362803313,
+                    0.993770462404616,
+                    0.9952422974425389,
+                    0.9971061795008352
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "stm.benchmarks.scala.StmPluginBenchmark.multiThreadedAccountBenchmark",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=RU",
+            "-Duser.language=en",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_144",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.144-b01",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 7,
+        "measurementTime" : "2 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.4989886500209092,
+            "scoreError" : 0.0011576463428542652,
+            "scoreConfidence" : [
+                0.49783100367805494,
+                0.5001462963637635
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.4982967372906436,
+                "50.0" : 0.4989679763016437,
+                "90.0" : 0.49973795390832293,
+                "95.0" : 0.49973795390832293,
+                "99.0" : 0.49973795390832293,
+                "99.9" : 0.49973795390832293,
+                "99.99" : 0.49973795390832293,
+                "99.999" : 0.49973795390832293,
+                "99.9999" : 0.49973795390832293,
+                "100.0" : 0.49973795390832293
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.49973795390832293,
+                    0.49865463105205815,
+                    0.4982967372906436,
+                    0.49957721329973376,
+                    0.498991629730774,
+                    0.4989679763016437,
+                    0.4986944085631878
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

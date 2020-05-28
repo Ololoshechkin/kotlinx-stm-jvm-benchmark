@@ -8,6 +8,7 @@ import stm.benchmarks.testData.NUMBER_OF_THREADS
 import stm.benchmarks.testData.TRANSFERS
 import stm.benchmarks.testData.TRANSFER_COUNT
 import java.util.concurrent.CountDownLatch
+import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
@@ -19,7 +20,7 @@ fun main() {
 @State(Scope.Benchmark)
 @Fork(1)
 @Warmup(iterations = 3)
-@Measurement(iterations = 7, time = 1, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 7, time = 2, timeUnit = TimeUnit.SECONDS)
 open class StmPluginBenchmark {
     private var user = User("", "")
 
@@ -74,22 +75,21 @@ open class StmPluginBenchmark {
     fun multiThreadedAccountBenchmark() {
         var currentTimestamp = 0
 
-        val accounts = FORTUNES.map { BankAccount(initial = it, timestamp = currentTimestamp) }
-
+        val accounts = FORTUNES.map { PluginBankAccount(initial = it, timestamp = currentTimestamp) }
         val ex = Executors.newFixedThreadPool(NUMBER_OF_THREADS)
         val countDownLatch = CountDownLatch(TRANSFER_COUNT)
 
-        TRANSFERS.forEach { (from, to, ammount) ->
+        TRANSFERS.forEach { (from, to, amount) ->
             currentTimestamp += 1
 
             ex.submit {
-                accounts[from].transferTo(accounts[to], ammount, currentTimestamp)
+                accounts[from].transferTo(accounts[to], amount, currentTimestamp)
                 countDownLatch.countDown()
             }
         }
 
         countDownLatch.await()
-        ex.awaitTermination(1, TimeUnit.SECONDS);
-        ex.shutdown();
+        ex.awaitTermination(100, TimeUnit.MILLISECONDS)
+        ex.shutdown()
     }
 }

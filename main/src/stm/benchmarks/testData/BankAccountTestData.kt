@@ -5,7 +5,7 @@ import kotlin.random.Random
 val NUMBER_OF_THREADS = 4
 
 val ACCOUNT_NUMBER = 10
-val TRANSFER_COUNT = 10000
+val TRANSFER_COUNT = 10
 
 val MIN_FORTUNE = 1000
 val MAX_FORTUNE = 100500
