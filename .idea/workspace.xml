@@ -24,165 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ac98d6-13e7-42ed-ac29-9e1d09892c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/common/TestUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/plugin/PluginMTPrimitiveOperations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/plugin/PluginMap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/scala/ScalaMTPrimitiveOperations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/scala/ScalaMap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/testData/ConcurrentMapData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/testData/MTPrimitiveOperationsData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_doubleReadBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_doubleWriteBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_gBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_multiThreadedAccountBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_nestedTransactionBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_singleReadBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_singleWriteBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/plugin/generated/StmPluginBenchmark_swapBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_doubleReadBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_doubleWriteBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_gBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_multiThreadedAccountBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_nestedTransactionBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_singleReadBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_singleWriteBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/classes/stm/benchmarks/scala/generated/StmPluginBenchmark_swapBenchmark_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/resources/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/build/benchmarks/main/resources/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/resources/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/build/benchmarks/main/resources/META-INF/CompilerHints" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_doubleReadBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_doubleWriteBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_gBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_multiThreadedAccountBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_nestedTransactionBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_singleReadBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_singleWriteBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/plugin/generated/StmPluginBenchmark_swapBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_doubleReadBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_doubleWriteBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_gBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_multiThreadedAccountBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_nestedTransactionBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_singleReadBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_singleWriteBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/benchmarks/main/sources/stm/benchmarks/scala/generated/StmPluginBenchmark_swapBenchmark_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/untitled4.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/PluginBankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/PluginBankAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/PluginBankAccountKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/PluginBankAccountKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$doubleReadBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$doubleWriteBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$multiThreadedAccountBenchmark$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$nestedTransactionBenchmark$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$nestedTransactionBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$singleReadBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$singleWriteBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark$swapNames$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmarkKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/StmPluginBenchmarkKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/UserKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/plugin/UserKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/ScalaBankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/ScalaBankAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/ScalaBankAccountKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/ScalaBankAccountKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/ScalaStmBenchmarkKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/ScalaStmBenchmarkKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$doubleReadBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$doubleWriteBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$multiThreadedAccountBenchmark$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$nestedTransactionBenchmark$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$nestedTransactionBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$singleReadBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$singleWriteBenchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark$swapNames$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/StmPluginBenchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/UserKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/UserKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/UtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/scala/UtilsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/testData/BankAccountTestDataKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/testData/BankAccountTestDataKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/testData/Transfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/stm/benchmarks/testData/Transfer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/stm/benchmarks/plugin/StmPluginBenchmark.kt" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/plugin/StmPluginBenchmark.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/stm/benchmarks/scala/ScalaStmBenchmark.kt" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/scala/ScalaStmBenchmark.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/stm/benchmarks/testData/BankAccountTestData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/stm/benchmarks/testData/BankAccountTestData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +180,7 @@
       <workItem from="1590524273583" duration="158000" />
       <workItem from="1590524444372" duration="19000" />
       <workItem from="1590524529587" duration="21564000" />
-      <workItem from="1592155817023" duration="11788000" />
+      <workItem from="1592155817023" duration="12461000" />
     </task>
     <servers />
   </component>
@@ -359,25 +202,25 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="616" y="245" width="1240" height="700" key="DiffContextDialog/0.23.1440.825@0.23.1440.825" timestamp="1591018963388" />
-    <state width="1398" height="358" key="GridCell.Tab.0.bottom" timestamp="1592208073399">
+    <state width="1398" height="358" key="GridCell.Tab.0.bottom" timestamp="1592209691367">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="358" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592208073399" />
+    <state width="1398" height="358" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592209691367" />
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1590583475184" />
-    <state width="1398" height="358" key="GridCell.Tab.0.center" timestamp="1592208073398">
+    <state width="1398" height="358" key="GridCell.Tab.0.center" timestamp="1592209691365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="358" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592208073398" />
+    <state width="1398" height="358" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592209691365" />
     <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1590583475182" />
-    <state width="1398" height="358" key="GridCell.Tab.0.left" timestamp="1592208073397">
+    <state width="1398" height="358" key="GridCell.Tab.0.left" timestamp="1592209691364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="358" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592208073397" />
+    <state width="1398" height="358" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592209691364" />
     <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1590583475181" />
-    <state width="1398" height="358" key="GridCell.Tab.0.right" timestamp="1592208073399">
+    <state width="1398" height="358" key="GridCell.Tab.0.right" timestamp="1592209691366">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="358" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592208073399" />
+    <state width="1398" height="358" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592209691366" />
     <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1590583475183" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1592174328257">
       <screen x="0" y="0" width="1440" height="900" />
