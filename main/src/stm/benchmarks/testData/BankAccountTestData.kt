@@ -2,7 +2,7 @@ package stm.benchmarks.testData
 
 import kotlin.random.Random
 
-val NUMBER_OF_THREADS = 4
+val NUMBER_OF_THREADS_BANK = 4
 
 val ACCOUNT_NUMBER = 10
 val TRANSFER_COUNT = 10
