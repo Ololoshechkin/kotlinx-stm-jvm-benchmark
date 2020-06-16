@@ -1,5 +1,6 @@
 package stm.benchmarks.plugin
 
+import kotlinx.benchmark.Blackhole
 import kotlinx.stm.runAtomically
 import org.openjdk.jmh.annotations.*
 import stm.benchmarks.common.multiThreadedRun
@@ -16,65 +17,65 @@ fun main() {
 @Warmup(iterations = 3)
 @Measurement(iterations = 7, time = 2, timeUnit = TimeUnit.SECONDS)
 open class StmPluginBenchmark {
-//    private var user = User("", "")
-//
-//    @Setup
-//    fun setUp() {
-//        user = User("Vadim", "Briliantov")
-//    }
-//
-//    @Benchmark
-//    fun singleReadBenchmark() = runAtomically {
-//        user.firstName
-//    }
-//
-//    @Benchmark
-//    fun doubleReadBenchmark(b: Blackhole) = runAtomically {
-//        b.consume(user.firstName)
-//        b.consume(user.lastName)
-//    }
-//
-//    @Benchmark
-//    fun singleWriteBenchmark() = runAtomically {
-//        user.firstName = "Vad"
-//    }
-//
-//    @Benchmark
-//    fun doubleWriteBenchmark() = runAtomically {
-//        user.firstName = "Vad"
-//        user.firstName = "Bril"
-//    }
-//
-//    private fun swapNames() = runAtomically {
-//        val tmp = user.firstName
-//        user.firstName = user.lastName
-//        user.lastName = tmp
-//    }
-//
-//    @Benchmark
-//    fun swapBenchmark() = swapNames()
-//
-//    @Benchmark
-//    fun nestedTransactionBenchmark() = runAtomically {
-//        swapNames()
-//        runAtomically {
-//            swapNames()
-//        }
-//    }
-//
-//    @Benchmark
-//    fun gBenchmark() = g()
-//
-//    @Benchmark
-//    fun multiThreadedAccountBenchmark() {
-//        var currentTimestamp = 0
-//        val accounts = FORTUNES.map { PluginBankAccount(initial = it, timestamp = currentTimestamp) }
-//
-//        multiThreadedRun(NUMBER_OF_THREADS_BANK, TRANSFERS) { (from, to, amount) ->
-//            currentTimestamp += 1
-//            accounts[from].transferTo(accounts[to], amount, currentTimestamp)
-//        }
-//    }
+    private var user = User("", "")
+
+    @Setup
+    fun setUp() {
+        user = User("Vadim", "Briliantov")
+    }
+
+    @Benchmark
+    fun singleReadBenchmark() = runAtomically {
+        user.firstName
+    }
+
+    @Benchmark
+    fun doubleReadBenchmark(b: Blackhole) = runAtomically {
+        b.consume(user.firstName)
+        b.consume(user.lastName)
+    }
+
+    @Benchmark
+    fun singleWriteBenchmark() = runAtomically {
+        user.firstName = "Vad"
+    }
+
+    @Benchmark
+    fun doubleWriteBenchmark() = runAtomically {
+        user.firstName = "Vad"
+        user.firstName = "Bril"
+    }
+
+    private fun swapNames() = runAtomically {
+        val tmp = user.firstName
+        user.firstName = user.lastName
+        user.lastName = tmp
+    }
+
+    @Benchmark
+    fun swapBenchmark() = swapNames()
+
+    @Benchmark
+    fun nestedTransactionBenchmark() = runAtomically {
+        swapNames()
+        runAtomically {
+            swapNames()
+        }
+    }
+
+    @Benchmark
+    fun gBenchmark() = g()
+
+    @Benchmark
+    fun multiThreadedAccountBenchmark() {
+        var currentTimestamp = 0
+        val accounts = FORTUNES.map { PluginBankAccount(initial = it, timestamp = currentTimestamp) }
+
+        multiThreadedRun(NUMBER_OF_THREADS_BANK, TRANSFERS) { (from, to, amount) ->
+            currentTimestamp += 1
+            accounts[from].transferTo(accounts[to], amount, currentTimestamp)
+        }
+    }
 
     @Benchmark
     fun multiThreadedPrimitiveBenchmark() {
